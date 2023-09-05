@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-05T12:27:04 IST" name="Default suite" finished-at="2023-09-05T12:27:14 IST" duration-ms="10485">
+    <groups>
+      <group name="G1">
+        <method signature="TestPractic06.f()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" name="f" class="com.selenium.a11.TestPractic06"/>
+      </group> <!-- G1 -->
+      <group name="G2">
+        <method signature="TestPractic06.f1()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" name="f1" class="com.selenium.a11.TestPractic06"/>
+        <method signature="TestPractic06.f2()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" name="f2" class="com.selenium.a11.TestPractic06"/>
+      </group> <!-- G2 -->
+    </groups>
+    <test started-at="2023-09-05T12:27:04 IST" name="Default test" finished-at="2023-09-05T12:27:14 IST" duration-ms="10485">
+      <class name="com.selenium.a11.TestPractic06">
+        <test-method signature="f()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" started-at="2023-09-05T12:27:04 IST" name="f" finished-at="2023-09-05T12:27:09 IST" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f1()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" started-at="2023-09-05T12:27:09 IST" name="f1" depends-on-groups="G1" finished-at="2023-09-05T12:27:12 IST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:com.selenium.a11.TestPractic06@f78a47e]" started-at="2023-09-05T12:27:12 IST" name="f2" depends-on-groups="G1" finished-at="2023-09-05T12:27:14 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- com.selenium.a11.TestPractic06 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
